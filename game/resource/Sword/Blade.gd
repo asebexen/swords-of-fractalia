@@ -1,0 +1,2 @@
+extends FormComponent
+class_name Blade
