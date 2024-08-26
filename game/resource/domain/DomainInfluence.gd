@@ -29,7 +29,6 @@ func get_influence(domain: Domain) -> int:
 static func from_recipe(recipe: FormComponentRecipe) -> DomainInfluence:
 	var result = DomainInfluence.new()
 	for entry in recipe.items:
-		print(entry)
 		result.add_domain(entry.material.domain, entry.quantity)
 	return result
 
