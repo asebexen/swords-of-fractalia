@@ -8,6 +8,9 @@ var domain: SwordDomain
 
 func _init(name: String):
 	self.name = name
+	self.lore = null
+	self.form = null
+	self.domain = null
 	
 func set_lore(value: SwordLore) -> Sword:
 	lore = value
