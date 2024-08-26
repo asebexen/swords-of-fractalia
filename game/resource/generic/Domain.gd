@@ -1,7 +1,6 @@
 extends Resource
 class_name Domain
 
-var name: String
 var description: String
 var ai_context: String
 
