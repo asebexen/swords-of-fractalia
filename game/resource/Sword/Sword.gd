@@ -1,7 +1,6 @@
 extends Resource
 class_name Sword
 
-var name: String
 var lore: SwordLore
 var form: SwordForm
 var domain: SwordDomain

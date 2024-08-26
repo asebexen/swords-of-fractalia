@@ -1,7 +1,6 @@
 extends Resource
 class_name SwordForm
 
-var name: String
 var blade: Blade
 var handle: Handle
 var soltyr: Soltyr
@@ -21,5 +20,5 @@ func set_handle(value: Handle) -> SwordForm:
 	return self
 
 func set_soltyr(value: Soltyr) -> SwordForm:
-	soltyr = soltyr
+	soltyr = value
 	return self
