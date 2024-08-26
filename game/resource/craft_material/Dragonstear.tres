@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CraftMaterial" load_steps=3 format=3 uid="uid://dh6buiacrojg1"]
+
+[ext_resource type="Resource" uid="uid://df3x7o1ph0ksj" path="res://resource/domain/Neir.tres" id="1_4lir5"]
+[ext_resource type="Script" path="res://resource/craft_material/CraftMaterial.gd" id="1_bxrc5"]
+
+[resource]
+script = ExtResource("1_bxrc5")
+name = "Dragonstear"
+description = "A scorching-hot gem that burns with the glory of dragons"
+domain = ExtResource("1_4lir5")
+type = 4
+can_craft = {
+"blade": false,
+"handle": false,
+"soltyr": true
+}
+ai_hint = "dragons, glory"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Domain" load_steps=2 format=3 uid="uid://cfvdpm4hafpv3"]
+
+[ext_resource type="Script" path="res://resource/domain/Domain.gd" id="1_s4f5d"]
+
+[resource]
+script = ExtResource("1_s4f5d")
+name = "Aes"
+description = "Aes domain"
+ai_context = "sparkly, glittery"

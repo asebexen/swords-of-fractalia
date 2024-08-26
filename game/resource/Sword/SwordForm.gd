@@ -1,12 +1,11 @@
 extends Resource
 class_name SwordForm
 
-var blade: Blade
-var handle: Handle
-var soltyr: Soltyr
+@export var blade: Blade
+@export var handle: Handle
+@export var soltyr: Soltyr
 
-func _init(name: String):
-	self.name = name
+func _init():
 	blade = null
 	handle = null
 	soltyr = null

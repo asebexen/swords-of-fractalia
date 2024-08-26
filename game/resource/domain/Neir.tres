@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Domain" load_steps=2 format=3 uid="uid://df3x7o1ph0ksj"]
+
+[ext_resource type="Script" path="res://resource/domain/Domain.gd" id="1_ef4tu"]
+
+[resource]
+script = ExtResource("1_ef4tu")
+name = "Neir"
+description = "Neir domain"
+ai_context = "dreamy, heavenly"

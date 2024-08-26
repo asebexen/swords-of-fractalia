@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccwed2lo71sks"]
+
+[ext_resource type="Script" path="res://scene/Test.gd" id="1_1ix41"]
+[ext_resource type="Script" path="res://scene/sword_generator/SwordGenerator.gd" id="2_vvymi"]
+
+[node name="Test" type="Node2D"]
+script = ExtResource("1_1ix41")
+
+[node name="SwordGenerator" type="Node" parent="."]
+script = ExtResource("2_vvymi")
