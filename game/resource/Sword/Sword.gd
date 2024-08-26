@@ -1,15 +1,16 @@
 extends Resource
 class_name Sword
 
-var lore: SwordLore
-var form: SwordForm
-var domain: SwordDomain
+@export var name: SwordName
+@export var lore: SwordLore
+@export var form: SwordForm
+@export var domains: DomainInfluence
 
-func _init(name: String):
-	self.name = name
-	self.lore = null
-	self.form = null
-	self.domain = null
+func _init():
+	name = null
+	lore = null
+	form = null
+	domains = null
 	
 func set_lore(value: SwordLore) -> Sword:
 	lore = value
@@ -19,6 +20,10 @@ func set_form(value: SwordForm) -> Sword:
 	form = value
 	return self
 
-func set_domain(value: SwordDomain) -> Sword:
-	domain = value
+func set_domains(value: DomainInfluence) -> Sword:
+	domains = value
+	return self
+
+func set_sword_name(value: SwordName) -> Sword:
+	name = value
 	return self

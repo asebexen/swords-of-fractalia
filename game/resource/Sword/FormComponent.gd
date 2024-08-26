@@ -1,7 +1,7 @@
 extends Resource
 class_name FormComponent
 
-var materials: Array[FormComponentMaterial]
+@export var recipe: FormComponentRecipe
 
-func _init(pMaterials: Array[FormComponentMaterial]):
-	materials = pMaterials
+func _init(pRecipe: FormComponentRecipe):
+	recipe = pRecipe

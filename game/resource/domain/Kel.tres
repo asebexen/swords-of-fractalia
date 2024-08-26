@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Domain" load_steps=2 format=3 uid="uid://3105t66peg1e"]
+
+[ext_resource type="Script" path="res://resource/domain/Domain.gd" id="1_1bgui"]
+
+[resource]
+script = ExtResource("1_1bgui")
+name = "Kel"
+description = "Kel domain"
+ai_context = "spooky, hellish"
