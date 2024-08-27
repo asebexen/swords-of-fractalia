@@ -27,3 +27,12 @@ func set_domains(value: DomainInfluence) -> Sword:
 func set_sword_name(value: SwordName) -> Sword:
 	name = value
 	return self
+	
+func to_json() -> Dictionary:
+	var data = {
+		"name": name.to_json(),
+		"lore": lore.to_json(),
+		"form": form.to_json(),
+		"domains": domains.to_json()
+	}
+	return data

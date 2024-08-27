@@ -1,91 +1,91 @@
-[gd_resource type="Resource" script_class="Sword" load_steps=28 format=3 uid="uid://bu4dogligit7x"]
+[gd_resource type="Resource" script_class="Sword" load_steps=28 format=3]
 
-[ext_resource type="Resource" uid="uid://df3x7o1ph0ksj" path="res://resource/domain/Neir.tres" id="1_bpy5n"]
-[ext_resource type="Script" path="res://resource/domain/DomainInfluence.gd" id="2_4epsx"]
-[ext_resource type="Resource" uid="uid://b6a8lb2t1peo8" path="res://resource/craft_material/Dracosteel.tres" id="3_2krg7"]
-[ext_resource type="Script" path="res://resource/sword/FormComponentRecipe.gd" id="4_bcl5g"]
-[ext_resource type="Script" path="res://resource/sword/Blade.gd" id="5_jrjs3"]
-[ext_resource type="Resource" uid="uid://1noq6vwyaqte" path="res://resource/craft_material/Dragonsbeard.tres" id="6_hpnel"]
-[ext_resource type="Script" path="res://resource/sword/Handle.gd" id="7_sd87y"]
-[ext_resource type="Script" path="res://resource/sword/SwordForm.gd" id="8_1lw7s"]
-[ext_resource type="Resource" uid="uid://dh6buiacrojg1" path="res://resource/craft_material/Dragonstear.tres" id="9_ub44s"]
-[ext_resource type="Script" path="res://resource/sword/Soltyr.gd" id="10_jkavh"]
-[ext_resource type="Script" path="res://resource/sword/Lore.gd" id="11_1ffwi"]
-[ext_resource type="Script" path="res://resource/sword/SwordLore.gd" id="12_4tj2b"]
-[ext_resource type="Script" path="res://resource/sword/SwordName.gd" id="13_vobjh"]
-[ext_resource type="Script" path="res://resource/sword/Sword.gd" id="14_3s84q"]
+[ext_resource type="Resource" path="res://resource/domain/Neir.tres" id="1_eaevs"]
+[ext_resource type="Script" path="res://resource/domain/DomainInfluence.gd" id="2_4jit3"]
+[ext_resource type="Resource" path="res://resource/craft_material/Dracosteel.tres" id="3_vv4js"]
+[ext_resource type="Script" path="res://resource/sword/FormComponentRecipe.gd" id="4_mc5xe"]
+[ext_resource type="Script" path="res://resource/sword/Blade.gd" id="5_vclrb"]
+[ext_resource type="Resource" path="res://resource/craft_material/Dragonsbeard.tres" id="6_ngkw6"]
+[ext_resource type="Script" path="res://resource/sword/Handle.gd" id="7_h4q4l"]
+[ext_resource type="Script" path="res://resource/sword/SwordForm.gd" id="8_x4lti"]
+[ext_resource type="Resource" path="res://resource/craft_material/Dragonstear.tres" id="9_1gqck"]
+[ext_resource type="Script" path="res://resource/sword/Soltyr.gd" id="10_82633"]
+[ext_resource type="Script" path="res://resource/sword/Lore.gd" id="11_bn7mc"]
+[ext_resource type="Script" path="res://resource/sword/SwordLore.gd" id="12_xisvm"]
+[ext_resource type="Script" path="res://resource/sword/SwordName.gd" id="13_6a0xj"]
+[ext_resource type="Script" path="res://resource/sword/Sword.gd" id="14_077u6"]
 
-[sub_resource type="Resource" id="Resource_w482y"]
-script = ExtResource("2_4epsx")
+[sub_resource type="Resource" id="Resource_5jti5"]
+script = ExtResource("2_4jit3")
 domain_influence = Array[Dictionary]([{
-"domain": ExtResource("1_bpy5n"),
+"domain": ExtResource("1_eaevs"),
 "influence": 300
 }])
 
-[sub_resource type="Resource" id="Resource_q4b6g"]
-script = ExtResource("4_bcl5g")
+[sub_resource type="Resource" id="Resource_jpyee"]
+script = ExtResource("4_mc5xe")
 items = Array[Dictionary]([{
-"material": ExtResource("3_2krg7"),
+"material": ExtResource("3_vv4js"),
 "quantity": 100
 }])
 
-[sub_resource type="Resource" id="Resource_3fs7e"]
-script = ExtResource("5_jrjs3")
-recipe = SubResource("Resource_q4b6g")
+[sub_resource type="Resource" id="Resource_scoah"]
+script = ExtResource("5_vclrb")
+recipe = SubResource("Resource_jpyee")
 
-[sub_resource type="Resource" id="Resource_bab1x"]
-script = ExtResource("4_bcl5g")
+[sub_resource type="Resource" id="Resource_3nmpb"]
+script = ExtResource("4_mc5xe")
 items = Array[Dictionary]([{
-"material": ExtResource("6_hpnel"),
+"material": ExtResource("6_ngkw6"),
 "quantity": 100
 }])
 
-[sub_resource type="Resource" id="Resource_aghyx"]
-script = ExtResource("7_sd87y")
-recipe = SubResource("Resource_bab1x")
+[sub_resource type="Resource" id="Resource_bf6f8"]
+script = ExtResource("7_h4q4l")
+recipe = SubResource("Resource_3nmpb")
 
-[sub_resource type="Resource" id="Resource_4tku1"]
-script = ExtResource("4_bcl5g")
+[sub_resource type="Resource" id="Resource_mfmt3"]
+script = ExtResource("4_mc5xe")
 items = Array[Dictionary]([{
-"material": ExtResource("9_ub44s"),
+"material": ExtResource("9_1gqck"),
 "quantity": 100
 }])
 
-[sub_resource type="Resource" id="Resource_eobuw"]
-script = ExtResource("10_jkavh")
-recipe = SubResource("Resource_4tku1")
+[sub_resource type="Resource" id="Resource_rapp4"]
+script = ExtResource("10_82633")
+recipe = SubResource("Resource_mfmt3")
 
-[sub_resource type="Resource" id="Resource_0qf8c"]
-script = ExtResource("8_1lw7s")
-blade = SubResource("Resource_3fs7e")
-handle = SubResource("Resource_aghyx")
-soltyr = SubResource("Resource_eobuw")
+[sub_resource type="Resource" id="Resource_eh1pp"]
+script = ExtResource("8_x4lti")
+blade = SubResource("Resource_scoah")
+handle = SubResource("Resource_bf6f8")
+soltyr = SubResource("Resource_rapp4")
 
-[sub_resource type="Resource" id="Resource_cdckc"]
-script = ExtResource("11_1ffwi")
+[sub_resource type="Resource" id="Resource_7c5cj"]
+script = ExtResource("11_bn7mc")
 description = "This thing has lore."
 
-[sub_resource type="Resource" id="Resource_1omic"]
-script = ExtResource("11_1ffwi")
+[sub_resource type="Resource" id="Resource_275jg"]
+script = ExtResource("11_bn7mc")
 description = "This thing has lore."
 
-[sub_resource type="Resource" id="Resource_c3rvr"]
-script = ExtResource("11_1ffwi")
+[sub_resource type="Resource" id="Resource_fo2vi"]
+script = ExtResource("11_bn7mc")
 description = "This thing has lore."
 
-[sub_resource type="Resource" id="Resource_de1lx"]
-script = ExtResource("12_4tj2b")
-bond = SubResource("Resource_cdckc")
-oath = SubResource("Resource_c3rvr")
-destiny = SubResource("Resource_1omic")
+[sub_resource type="Resource" id="Resource_twgnh"]
+script = ExtResource("12_xisvm")
+bond = SubResource("Resource_7c5cj")
+oath = SubResource("Resource_fo2vi")
+destiny = SubResource("Resource_275jg")
 
-[sub_resource type="Resource" id="Resource_7xgyh"]
-script = ExtResource("13_vobjh")
+[sub_resource type="Resource" id="Resource_srf60"]
+script = ExtResource("13_6a0xj")
 name = "Dragonstail"
 
 [resource]
-script = ExtResource("14_3s84q")
-name = SubResource("Resource_7xgyh")
-lore = SubResource("Resource_de1lx")
-form = SubResource("Resource_0qf8c")
-domains = SubResource("Resource_w482y")
+script = ExtResource("14_077u6")
+name = SubResource("Resource_srf60")
+lore = SubResource("Resource_twgnh")
+form = SubResource("Resource_eh1pp")
+domains = SubResource("Resource_5jti5")
