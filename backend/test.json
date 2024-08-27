@@ -1,0 +1,77 @@
+{
+  "domains": [
+    {
+      "domain": {
+        "ai_context": "dreamy, heavenly",
+        "description": "Neir domain",
+        "name": "Neir"
+      },
+      "influence": 300
+    }
+  ],
+  "form": {
+    "blade": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "Steel that burns with the glory of dragons",
+              "domain": {
+                "ai_context": "dreamy, heavenly",
+                "description": "Neir domain",
+                "name": "Neir"
+              },
+              "name": "Dracosteel",
+              "type": "Metal"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "handle": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A fiber that burns with the glory of dragons",
+              "domain": {
+                "ai_context": "dreamy, heavenly",
+                "description": "Neir domain",
+                "name": "Neir"
+              },
+              "name": "Dragonsbeard",
+              "type": "Fiber"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "soltyr": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A scorching-hot gem that burns with the glory of dragons",
+              "domain": {
+                "ai_context": "dreamy, heavenly",
+                "description": "Neir domain",
+                "name": "Neir"
+              },
+              "name": "Dragonstear",
+              "type": "Gem"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    }
+  },
+  "lore": {
+    "bond": "This thing has lore.",
+    "destiny": "This thing has lore.",
+    "oath": "This thing has lore."
+  },
+  "name": "Dragonstail"
+}
