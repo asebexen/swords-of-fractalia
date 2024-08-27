@@ -8,3 +8,6 @@ func _init(pDescription: String):
 	
 static func from_domain_influence_map(_domains: DomainInfluence) -> Lore:
 	return Lore.new("This thing has lore.")
+
+func to_json() -> String:
+	return description

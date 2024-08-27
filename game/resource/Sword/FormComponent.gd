@@ -5,3 +5,9 @@ class_name FormComponent
 
 func _init(pRecipe: FormComponentRecipe):
 	recipe = pRecipe
+
+func to_json() -> Dictionary:
+	var data = {
+		"recipe": recipe.to_json()
+	}
+	return data

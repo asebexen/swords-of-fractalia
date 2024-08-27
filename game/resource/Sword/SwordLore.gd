@@ -22,3 +22,10 @@ func set_destiny(value: Lore) -> SwordLore:
 	self.destiny = value
 	return self
 
+func to_json() -> Dictionary:
+	var data = {
+		"bond": bond.to_json(),
+		"oath": oath.to_json(),
+		"destiny": destiny.to_json()
+	}
+	return data

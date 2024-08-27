@@ -38,3 +38,8 @@ static func combine(domain_influence_maps: Array[DomainInfluence]) -> DomainInfl
 		for entry in map.domain_influence:
 			combined.add_domain(entry.domain, entry.influence)
 	return combined
+
+func to_json() -> Array:
+	var data = domain_influence.map(func(x): return {"domain": x.domain.to_json(), "influence": x.influence})
+	print(data)
+	return data

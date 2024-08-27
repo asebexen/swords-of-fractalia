@@ -21,3 +21,11 @@ func set_handle(value: Handle) -> SwordForm:
 func set_soltyr(value: Soltyr) -> SwordForm:
 	soltyr = value
 	return self
+
+func to_json() -> Dictionary:
+	var data = {
+		"blade": blade.to_json(),
+		"handle": handle.to_json(),
+		"soltyr": soltyr.to_json()
+	}
+	return data

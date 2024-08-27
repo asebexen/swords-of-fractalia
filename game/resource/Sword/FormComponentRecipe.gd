@@ -17,3 +17,9 @@ func add_item(material: CraftMaterial, quantity: int):
 		found.quantity += quantity
 	else:
 		items.append({"material": material, "quantity": quantity})
+
+func to_json() -> Dictionary: 
+	var data = {
+		"items": items.map(func(x): return {"material": x.material.to_json(), "quantity": x.quantity})
+	}
+	return data
