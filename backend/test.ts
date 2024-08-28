@@ -1,5 +1,8 @@
-import { SwordSchema } from "./swordTypes";
+import forge from "./forge/client";
+import prompts from "./prompts";
+import { PartialSwordSchema, SwordSchema } from "./swordTypes";
 import testSword from './test.json';
 
-const sword = SwordSchema.parse(testSword);
-console.dir(sword, {depth: null});
+const sword = PartialSwordSchema.parse(testSword);
+const destiny = (await forge.destiny.query(prompts.destiny(sword))).data;
+console.log(destiny);

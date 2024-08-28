@@ -1,15 +1,16 @@
 import { z } from 'zod'; 
+import prompts from '../../prompts';
 
 const OathSchema = z.object({
     data: z.string().min(1).describe('The sword\'s oath.')
-}).describe('You are a narrator for a fantasy story. You are tasked with providing lore for a magical sword.');
+}).describe(prompts.loreContext);
 
 export default OathSchema;
 
 export const config = {
     "path": "oath",
     "public": true,
-    "cache": "Individual",
+    "cache": "None",
     "contentType": "text",
     "name": "Sword Oath",
     "description": "Generate a sword's oath from a partial schema.",

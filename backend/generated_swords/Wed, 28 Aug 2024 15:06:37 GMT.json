@@ -65,9 +65,9 @@
     }
   },
   "lore": {
-    "bond": null,
-    "destiny": null,
-    "oath": null
+    "bond": "The bond of this transcendent sword is steeped in undying honor, a steadfast spirit born from the eternal flames of the Dragonstear. With every swing, it whispers tales of valor and sacrifice, echoing the noble heart of its primordial spirit, urging its wielder to act with unwavering integrity and resolve. If called upon in the direst of circumstances, the sword awakens a fierce, protective fury, igniting within its bearer the righteous urge to defend the innocent, as a guardian of Neir's luminous virtues.",
+    "destiny": "Forged in the ethereal fires of Neir, the Dracosteel blade pulses with a life of its own, yearning to carve a legacy of valor across the ages. As it cleaves through the shadows of despair and ignites the hearts of the downtrodden, it aims to scorch the remnants of tyranny, transforming fear into courage, and sorrow into hope. In the hands of a true hero, it seeks to inscribe its name into the annals of legend, becoming a lasting symbol of justice and a testament to the nobility of the human spirit.",
+    "oath": "I pledge to uphold the tenets of valor and compassion, to wield this blade as a guardian of the innocent, and to foster the light of hope even in the darkest of times. As I grip the handle of Dragonsbeard, I swear to respect the breath of life through every cut I deliver, honoring those I protect and striking down the forces of tyranny without remorse."
   },
-  "name": null
+  "name": "Dragonsbeard"
 }
