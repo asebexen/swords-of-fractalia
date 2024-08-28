@@ -85,11 +85,65 @@ const Forge = (options: ClientOptions) => {
 export default Forge;
 
 
-  
+  import destiny_schema from "./destiny.generated.ts"
+import oath_schema from "./oath.generated.ts"
+import name_schema from "./name.generated.ts"
+import bond_schema from "./bond.generated.ts"
 
   const generatedClient = (forgeKey: string) => {
     return {
       
+destiny: {
+    query: (prompt: string, opts?: RequestOptions) => {
+        return createRequest<Zod.infer<typeof destiny_schema>>({
+          username: "ssebexen",
+          path: "destiny",
+        })(prompt, {
+          token: opts?.token || forgeKey,
+          cache: opts?.cache,
+          model: opts?.model,
+        });
+      },
+},
+
+oath: {
+    query: (prompt: string, opts?: RequestOptions) => {
+        return createRequest<Zod.infer<typeof oath_schema>>({
+          username: "ssebexen",
+          path: "oath",
+        })(prompt, {
+          token: opts?.token || forgeKey,
+          cache: opts?.cache,
+          model: opts?.model,
+        });
+      },
+},
+
+name: {
+    query: (prompt: string, opts?: RequestOptions) => {
+        return createRequest<Zod.infer<typeof name_schema>>({
+          username: "ssebexen",
+          path: "name",
+        })(prompt, {
+          token: opts?.token || forgeKey,
+          cache: opts?.cache,
+          model: opts?.model,
+        });
+      },
+},
+
+bond: {
+    query: (prompt: string, opts?: RequestOptions) => {
+        return createRequest<Zod.infer<typeof bond_schema>>({
+          username: "ssebexen",
+          path: "bond",
+        })(prompt, {
+          token: opts?.token || forgeKey,
+          cache: opts?.cache,
+          model: opts?.model,
+        });
+      },
+},
     };
   };
   

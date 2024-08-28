@@ -49,9 +49,25 @@ export const SwordLoreSchema = z.object({
     oath: LoreSchema
 });
 
+export const PartialSwordSchema = z.object({
+    domains: DomainInfluenceSchema,
+    form: SwordFormSchema,
+    lore: z.null(),
+    name: z.null(),
+});
+export type PartialSword = z.infer<typeof PartialSwordSchema>;
+
 export const SwordSchema = z.object({
     domains: DomainInfluenceSchema,
     form: SwordFormSchema,
     lore: SwordLoreSchema,
-    name: z.string()
+    name: z.string(),
 });
+export type Sword = z.infer<typeof SwordSchema>;
+
+export const NamelessSwordSchema = z.object({
+    domains: DomainInfluenceSchema,
+    form: SwordFormSchema,
+    lore: SwordLoreSchema,
+    name: z.null(),
+})
