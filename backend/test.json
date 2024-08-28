@@ -1,0 +1,73 @@
+{
+  "domains": [
+    {
+      "domain": {
+        "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+        "name": "Neir"
+      },
+      "influence": 300
+    }
+  ],
+  "form": {
+    "blade": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "Steel that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dracosteel",
+              "type": "Metal"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "handle": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A long, fibrous plant that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dragonsbeard",
+              "type": "Fiber"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "soltyr": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A scorching-hot gem that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dragonstear",
+              "type": "Gem"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    }
+  },
+  "lore": {
+    "bond": null,
+    "destiny": null,
+    "oath": null
+  },
+  "name": null
+}

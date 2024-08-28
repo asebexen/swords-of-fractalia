@@ -20,14 +20,18 @@ func generate() -> void:
 	var handle = Handle.new(handle_materials)
 	var soltyr = Soltyr.new(soltyr_materials)
 	
-	var destiny = Lore.from_domain_influence_map(blade_domains)
-	var bond = Lore.from_domain_influence_map(handle_domains)
-	var oath = Lore.from_domain_influence_map(soltyr_domains)
+	#var destiny = Lore.from_domain_influence_map(blade_domains)
+	#var bond = Lore.from_domain_influence_map(handle_domains)
+	#var oath = Lore.from_domain_influence_map(soltyr_domains)
+	var destiny = null
+	var bond = null
+	var oath = null
 	
 	var sword_form = SwordForm.new().set_blade(blade).set_handle(handle).set_soltyr(soltyr)
 	var sword_lore = SwordLore.new().set_destiny(bond).set_bond(destiny).set_oath(oath)
 	var sword_domains = DomainInfluence.combine([blade_domains, handle_domains, soltyr_domains])
-	var sword_name = SwordName.from_domain_and_lore(sword_domains, sword_lore)
+	#var sword_name = SwordName.from_domain_and_lore(sword_domains, sword_lore)
+	var sword_name = null
 	
 	var sword = Sword.new().set_form(sword_form).set_lore(sword_lore).set_domains(sword_domains).set_sword_name(sword_name)
 	generated_sword = sword

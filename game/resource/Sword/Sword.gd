@@ -30,9 +30,9 @@ func set_sword_name(value: SwordName) -> Sword:
 	
 func to_json() -> Dictionary:
 	var data = {
-		"name": name.to_json(),
-		"lore": lore.to_json(),
-		"form": form.to_json(),
-		"domains": domains.to_json()
+		"name": name.to_json() if name != null else null,
+		"lore": lore.to_json() if lore != null else null,
+		"form": form.to_json() if form != null else null,
+		"domains": domains.to_json() if domains != null else null
 	}
 	return data

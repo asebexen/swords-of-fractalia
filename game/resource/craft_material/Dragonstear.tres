@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_bxrc5")
 name = "Dragonstear"
-description = "A scorching-hot gem that burns with the glory of dragons"
+description = "A scorching-hot gem that burns with the glory of dragons."
 domain = ExtResource("1_4lir5")
 type = 4
 can_craft = {
@@ -14,4 +14,3 @@ can_craft = {
 "handle": false,
 "soltyr": true
 }
-ai_hint = "dragons, glory"

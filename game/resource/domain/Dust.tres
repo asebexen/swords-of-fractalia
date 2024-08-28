@@ -5,5 +5,4 @@
 [resource]
 script = ExtResource("1_4s5ik")
 name = "Dust"
-description = "Dust domain"
-ai_context = "realistic, natural"
+description = "The Dust domain is the one most directly tied to the physical world as it is. It seeks neither to change nor improve, but rather to preserve and protect the natural order."

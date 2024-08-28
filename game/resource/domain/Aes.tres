@@ -5,5 +5,4 @@
 [resource]
 script = ExtResource("1_s4f5d")
 name = "Aes"
-description = "Aes domain"
-ai_context = "sparkly, glittery"
+description = "The Aes domain is comprised of playful, glamorous beings who are all but uninterested in the goings-on of the world. They are primarily driven by a desire to create beauty."
