@@ -1,0 +1,73 @@
+{
+  "domains": [
+    {
+      "domain": {
+        "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+        "name": "Neir"
+      },
+      "influence": 300
+    }
+  ],
+  "form": {
+    "blade": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "Steel that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dracosteel",
+              "type": "Metal"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "handle": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A long, fibrous plant that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dragonsbeard",
+              "type": "Fiber"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "soltyr": {
+      "recipe": {
+        "items": [
+          {
+            "material": {
+              "description": "A scorching-hot gem that burns with the glory of dragons.",
+              "domain": {
+                "description": "The existence of Neir underpins the existence of virtue and morality itself. Neir shines as a beacon, bathing the world in ideals of honor and chivalry.",
+                "name": "Neir"
+              },
+              "name": "Dragonstear",
+              "type": "Gem"
+            },
+            "quantity": 100
+          }
+        ]
+      }
+    }
+  },
+  "lore": {
+    "bond": "This sword, forged from the fiery essence of the Dragonstear soltyr, embodies an unwavering spirit of valor and courage, echoing the roar of its draconic forebears. Its bond resonates with the essence of a noble protector, silently guiding its wielder towards righteousness and imparting a fierce resolve in the face of adversity. For those who aim to embody the virtues of honor and chivalry, this blade whispers melodies of ancient oaths, invigorating hearts with the flame of dragonfire and the light of Neir's moral compass.",
+    "destiny": "Forged in the breath of the ancients and tempered by the light of Neir, the living blade of Dracosteel yearns to carve a legacy of valor across the ages, guiding the hearts of the noble and vanquishing the scourge of tyranny. With each swing, it seeks not merely to spill blood but to inscribe the name of honor into the annals of history, forever binding its fate to the rise of champions and the fall of darkness.",
+    "oath": "The sword vows to honor the weary, to shield the innocent, and to champion the cause of justice above all else, forever binding itself to the noble spirit of its wielder."
+  },
+  "name": "Valor's Legacy"
+}
