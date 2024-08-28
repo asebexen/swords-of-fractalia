@@ -5,5 +5,4 @@
 [resource]
 script = ExtResource("1_1bgui")
 name = "Kel"
-description = "Kel domain"
-ai_context = "spooky, hellish"
+description = "The Kel domain represents all that storytellers have associated with the Underworld. Death, trickery, deception... the Kel domain offers refuge for those who seek the pragmatic truths of the world."

@@ -24,8 +24,8 @@ func set_destiny(value: Lore) -> SwordLore:
 
 func to_json() -> Dictionary:
 	var data = {
-		"bond": bond.to_json(),
-		"oath": oath.to_json(),
-		"destiny": destiny.to_json()
+		"bond": bond.to_json() if bond != null else null,
+		"oath": oath.to_json() if oath != null else null,
+		"destiny": destiny.to_json() if destiny != null else null
 	}
 	return data

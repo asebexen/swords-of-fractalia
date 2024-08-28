@@ -28,7 +28,6 @@ const MATERIALS_STRING = {
 	'handle': false,
 	'soltyr': false
 }
-@export var ai_hint: String
 
 func to_json() -> Dictionary:
 	var data = {

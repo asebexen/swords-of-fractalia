@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("2_d4rdx")
 name = "Dragonsbeard"
-description = "A fiber that burns with the glory of dragons"
+description = "A long, fibrous plant that burns with the glory of dragons."
 domain = ExtResource("1_sovju")
 type = 2
 can_craft = {
@@ -14,4 +14,3 @@ can_craft = {
 "handle": true,
 "soltyr": false
 }
-ai_hint = "dragons, glory"

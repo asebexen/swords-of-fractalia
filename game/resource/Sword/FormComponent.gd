@@ -8,6 +8,6 @@ func _init(pRecipe: FormComponentRecipe):
 
 func to_json() -> Dictionary:
 	var data = {
-		"recipe": recipe.to_json()
+		"recipe": recipe.to_json() if recipe != null else null
 	}
 	return data

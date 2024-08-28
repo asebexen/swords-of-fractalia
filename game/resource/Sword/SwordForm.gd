@@ -24,8 +24,8 @@ func set_soltyr(value: Soltyr) -> SwordForm:
 
 func to_json() -> Dictionary:
 	var data = {
-		"blade": blade.to_json(),
-		"handle": handle.to_json(),
-		"soltyr": soltyr.to_json()
+		"blade": blade.to_json() if blade != null else null,
+		"handle": handle.to_json() if handle != null else null,
+		"soltyr": soltyr.to_json() if soltyr != null else null
 	}
 	return data
