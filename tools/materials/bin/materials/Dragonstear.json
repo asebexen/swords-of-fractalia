@@ -1,0 +1,11 @@
+{
+  "name": "Dragonstear",
+  "description": "A scorching-hot gem that burns with the glory of dragons.",
+  "domain": "Neir",
+  "type": "Gem",
+  "canCraft": {
+    "blade": false,
+    "handle": false,
+    "soltyr": true
+  }
+}

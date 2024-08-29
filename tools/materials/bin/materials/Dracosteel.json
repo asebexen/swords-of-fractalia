@@ -1,0 +1,11 @@
+{
+  "name": "Dracosteel",
+  "description": "Steel that burns with the glory of dragons.",
+  "domain": "Neir",
+  "type": "Metal",
+  "canCraft": {
+    "blade": true,
+    "handle": false,
+    "soltyr": false
+  }
+}
