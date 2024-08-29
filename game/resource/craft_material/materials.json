@@ -53,5 +53,16 @@
       "handle": true,
       "soltyr": false
     }
+  },
+  {
+    "name": "Valss",
+    "description": "A prismatic crystal prized for its distinctive flavor in cooking. Some claim it bolsters one's courage.",
+    "domain": "Neir",
+    "type": "Crystal",
+    "canCraft": {
+      "blade": false,
+      "handle": false,
+      "soltyr": true
+    }
   }
 ]
