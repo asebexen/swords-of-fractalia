@@ -1,0 +1,11 @@
+{
+  "name": "Valryd",
+  "description": "A sturdy vine speckled with yellow and white flowers. They are said to strengthen one's resolve.",
+  "domain": "Neir",
+  "type": "Fiber",
+  "canCraft": {
+    "blade": false,
+    "handle": true,
+    "soltyr": false
+  }
+}

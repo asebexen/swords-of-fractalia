@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Dracosteel",
+    "description": "Steel that burns with the glory of dragons.",
+    "domain": "Neir",
+    "type": "Metal",
+    "canCraft": {
+      "blade": true,
+      "handle": false,
+      "soltyr": false
+    }
+  },
+  {
+    "name": "Dragonsbeard",
+    "description": "A long, fibrous plant that burns with the glory of dragons.",
+    "domain": "Neir",
+    "type": "Fiber",
+    "canCraft": {
+      "blade": false,
+      "handle": true,
+      "soltyr": false
+    }
+  },
+  {
+    "name": "Dragonstear",
+    "description": "A scorching-hot gem that burns with the glory of dragons.",
+    "domain": "Neir",
+    "type": "Gem",
+    "canCraft": {
+      "blade": false,
+      "handle": false,
+      "soltyr": true
+    }
+  },
+  {
+    "name": "Valkor",
+    "description": "A prismatic metal that gleams with heavenly light. It shines brightly in the presence of a valorous heart.",
+    "domain": "Neir",
+    "type": "Metal",
+    "canCraft": {
+      "blade": true,
+      "handle": false,
+      "soltyr": false
+    }
+  },
+  {
+    "name": "Valryd",
+    "description": "A sturdy vine speckled with yellow and white flowers. They are said to strengthen one's resolve.",
+    "domain": "Neir",
+    "type": "Fiber",
+    "canCraft": {
+      "blade": false,
+      "handle": true,
+      "soltyr": false
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "Dragonsbeard",
+  "description": "A long, fibrous plant that burns with the glory of dragons.",
+  "domain": "Neir",
+  "type": "Fiber",
+  "canCraft": {
+    "blade": false,
+    "handle": true,
+    "soltyr": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Valkor",
+  "description": "A prismatic metal that gleams with heavenly light. It shines brightly in the presence of a valorous heart.",
+  "domain": "Neir",
+  "type": "Metal",
+  "canCraft": {
+    "blade": true,
+    "handle": false,
+    "soltyr": false
+  }
+}
